@@ -6,6 +6,7 @@ const BeautifulCard = ({ title, description, imageUrl }) => {
     <div className="card">
       <div className="card-image-container">
         <img src={imageUrl} alt={title} className="card-image" />
+        <h1>hello abhi</h1>
       </div>
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
